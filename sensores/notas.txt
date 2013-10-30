@@ -1,0 +1,35 @@
+EL PROGRAM QUE FUNCIONA BIEN
+SE LLAMA sensor5.o
+el tanque I
+
+
+
+TANQUE I Y TANQUE 2
+
+QUE ENESTOS MOMENTOS TENGO INSTALADO EN CASA  ES
+DE LA SIGUIENTE FORMA
+
+
+
+SALIDA TUBERIAS  --- TANQUE I--- TANQUE II --- BOMBA
+
+ESA ES LA FIGURA
+
+
+EL SENSOR UBICADO EN EL TANQUE I esta manejado por el siguiente regitstro
+
+0x40 
+
+EL SENSOR UBICADO EN EL TANQUE II ESTA MANEJADO POR EL SIGUIENTE REGISTRO
+
+0X80
+
+LO QUE PODEMOS APRECIAR ES UNA BUENA MEDIDA DE AMBAS ALTURAS 48 O 49 CM
+
+EL PROGRAMA EN C QUE ES UNA APLICACION EN TIEMPO REAL 
+EMPIEZA SENSANDO EN EL TANQUE I Y LUEGO VA AL TANQUE 2 PERO LA SECUENCIA QUE REALIZA ES LA MISMA
+
+
+ojo me paso un par de veces que el sensor 1me daba cero :( pero solo fue que cuando levante la tapita se movio la conexion despues de conectar mejor el cable todo esta ok :).
+
+AHORA LA ULTIMA VERSION ES LA sensor6.o y sobre esa haremos la modificacion para unir la aplicacion que maneja el nivel del liquito a traves del variador que controla la bomba.
